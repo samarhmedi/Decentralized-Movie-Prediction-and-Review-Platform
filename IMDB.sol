@@ -37,7 +37,7 @@ contract MoviePredictionPlatform {
 
         predictions[predictionIndex].hasClaimedReward = true;
         // Distribute tokens as the reward to the user
-        // Implement your token transfer logic here
+       // token distribuation in progress
 
         emit RewardClaimed(msg.sender, _movieId, rewardAmount);
     }
